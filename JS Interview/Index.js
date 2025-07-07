@@ -219,3 +219,88 @@
 
 // arr.splice(1,2,"Mishra","Ji");
 // console.log(arr);
+
+
+    //    Sort() method in js
+
+    // let arr=[10,5,1,20];
+    // arr.sort();
+    // console.log(arr);
+    
+
+
+        //  Map method in js
+
+// let arr=[1,2,3,4,6,8]
+
+// arr.map((elem)=>{
+
+//     return(
+//         elem*2
+//     )
+
+    
+// })
+
+//     console.log(elem,index,arr);
+
+
+//  Filter Method
+
+// let arr=[2,3,4,5,6,7,8];
+
+// let newarr=arr.filter((elem,index)=>{
+
+
+//     return(
+//         elem%2===0
+
+
+
+//     )
+
+    
+// })
+// console.log(newarr);
+
+
+
+// Reduce Methode()
+
+
+// Question on Array
+
+// (1) Find the average marks of class
+
+// let marks=[5,10,25,20]
+
+// let newarr=marks.reduce((accumulator,current)=>{
+//     return accumulator+current
+// })
+// console.log(newarr/marks.length);
+
+// (2) Check Palindrome string
+
+// let arr=[1,2,3]
+// arr.reverse();
+// console.log(arr);
+
+// let arr=["Ankit"]
+// console.log(arr.reverse());
+
+// let str="Hello"
+// let reversedStr=str.split('').reverse().join("")
+
+// if(str===reversedStr){
+//     console.log("Palindrome numner");
+    
+// }
+// else{
+//     console.log("Not Palindrom");
+    
+// }
+
+
+
+
+
