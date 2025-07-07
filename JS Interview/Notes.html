@@ -183,24 +183,112 @@ There is different type of conditioal statement
 
         #Class No -05 Loop in javascript.
 
-     e
+    (1) While-- Condition is not certain.
+     (2) For=when condition is certain , we use this
+     (3)For of Looop == Mailny use in string,arrray,object and return the actial value
+    (4) For in Loop== it helps to find the index of character and retirn the index of array or string
+
+    
+
+
+
+               #  Class NO -06 String & Array in J.S
+
+String-- It is a piece of code .single letter, or even empty -anything made of characters.
+
+
+String are immutable in javascript and it has index of characters and if you want to manipukate it you can not manipulate directly ,you will have to store it in a variable.
+
+
+Escape sequences: Escape sequences look like 2 character but they count as 1 character in string.
+
+
+Strings me mainly for in loop ka use krna chaiee.
+
+
+String Properties and Method--
+
+Properties- it tell only information and it called without parenthesis.  Ex - str.length
+
+Methods- it works something for string.
+str.toLowerCase()
+.trim() ,includes()- Output in true ,false.
+
+-- indexOf()-output in -1 when character is not present at that string.
+
+ -- charAt(),
+ -- replaced(old,new) - it select only  first , if you want to replace everything then use replaceAll(old,new)
+
+slice(start,end) -- it dedcuts the small piece of the string. it does not incude last index .
+
+
+Substring - as same as slice method but it takes also negative index.
+
+
+
+split()-- it converts the string in Array.
+
+in split agr ('') krte hai to wo hr ek character ko split krta hai aur agr (' ') krte hai to wo 
 
 
 
 
+               # Array in javascript
+
+Array - it can store multiple value in one place.
+
+stack and heap in array -
+Stack holds the refrence or address of a array and heap store thr array.
+
+Create Array using array constructor
+let arr- new Array("Man","Women","Boy");
+
+
+Diffrence between both array creating methods.
+let arr=[20] -- one item that is 20
+let carr=new Array(20)--  20 empty items means it has length 
+
+
+-- type of (Array) == Object
+
+-- Array Methods---
+
+(1) push()--        Chnage the original aaray 
+and return new length of aaray 
+and add item in end.
 
 
 
+(2) Pop()--
+ Change original ARRAY= Yes;
+ Return new array == yes and return the popped element;
+ works- remove item from last;
+
+(3) unshift()--
+ Change original ARRAY= Yes;
+ Return new array == yes and new array length;
+ works- add item from start;
+
+(4) shift()--
+ Change original ARRAY= Yes;
+ Return new array == yes and return shifted element ;
+ works- remove item from start ;
 
 
+ (5) splice(index, how many items removed, add items)--
 
+ Change original ARRAY= yes;
+ Return  == an array of removed items ;
+ works- add/remove or doing both at same time;
 
+ (6) Slice(start,end)--
+ Change original ARRAY= No;
+Return  == an array of removed items  and also work with negative index;
 
-
-
-
-
-
+(7)join()--
+Conevrt array in a string
+takes argumnt and that is optional.
+Returns new array in a string type.
 
 
 

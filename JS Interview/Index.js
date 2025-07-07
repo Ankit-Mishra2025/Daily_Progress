@@ -65,4 +65,157 @@
 // console.log(result);
 
 
+// let i=0;
+// while (i<=10) {
+//     console.log(i);
+//     i++
+    
+// }
 
+// for(let i=0; i<=10; i++){
+// console.log("Ankit");
+
+// }
+
+// let name="Ankit";
+// for(let Name of name){
+//     console.log(Name);
+    
+// }
+
+
+//    Fixed Password checker
+
+
+//  let Password="ankit";
+//  let userPassword=null;
+//  let attemptPassword=0;
+
+// while (userPassword!==Password && attemptPassword<3) {
+//     userPassword=prompt("Enter Your Password");
+//     attemptPassword++;
+//     if (userPassword===Password) {
+//         console.log("You have matched your password");
+//     alert("You have no of attempts",attemptPassword)
+//     } 
+    
+//  else {
+//         console.log("Password Not matched");
+        
+//     }
+// }
+ 
+
+// let number=5;
+// let fact=1;
+
+
+// for(let fact=1; fact<=number; fact++){
+//     fact*=number;
+// }
+// console.log("Factorial is",fact);
+
+   
+
+            // String in JS
+            
+
+// let firstName="Ankit";
+// let secondName="Mishr/na";
+
+// let fullName=firstName + "" + "/n "+secondName;
+// console.log(fullName);
+
+// let str="String";
+// let result=str.toUpperCase();
+// console.log(result);
+
+// let  name="Ankit Mishra";
+// let result=name.split(' ');
+// console.log(result);
+
+
+
+
+// Question- Find how many times a character present in a string..
+
+
+// let string=prompt("Enter Your string");
+// let char=prompt("Enter Your find character");
+// let count=0;
+
+// for (let i = 0; i < string.length; i++) {
+//     let result=string.includes(char);
+//     console.log(result)
+    
+// }
+
+// for (let index in string) {
+
+//     if(string[index].toLowerCase()===char.toLowerCase()){
+//         console.log("Occurence position ",index);
+        
+//         count++;
+        
+//     }
+// }
+
+
+
+// Question- Count the word in a string
+
+// let str="Hi i am boy";
+// console.log(str.split(' '));
+
+
+// let name="Ankit Mishra";
+
+// console.log(name.split('').length);
+// console.log(name.split(' ').length);
+
+
+
+
+    //  # Array in Javascript
+
+
+// let arr=[1,2,32,22,15,11,16,12]
+
+// for(let i =0; i<arr.length; i++){
+//     console.log(i*2);
+    
+// }
+
+// for (const value of arr) {
+//     console.log(value);
+    
+// }
+
+// for(let ind in arr){
+//     console.log(ind);
+    
+// }
+
+
+
+
+
+// let arr=[2,3,"akm","5","8"]
+// console.log(arr);
+// arr.push(20);
+// console.log(arr);
+
+// console.log(arr.push(20));
+
+// let a=arr.push(20);
+// console.log(a);
+
+// let arr=[2,3,"akm","5","8"]
+// newarr=arr.slice(1,3);
+// console.log(newarr);
+
+// let arr=[2,3,"akm","5","8"]
+// console.log(arr);
+
+// arr.splice(1,2,"Mishra","Ji");
+// console.log(arr);
