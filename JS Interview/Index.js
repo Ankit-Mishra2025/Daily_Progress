@@ -1,130 +1,8 @@
 
-let language="Javascript";
-
-// language.toLowerCase();
-// language.toUpperCase();
-// console.log(language);    It will never work and will not manipulate string
-
-// let lowerCase=language.toLowerCase();
-// let upperCase=language.toUpperCase()
-// console.log(lowerCase);   Output- javascript
-// console.log(upperCase);  Output-JAVASCRIPT
-
-
-// let language="  Javascript  "
-// language.trim();
-// language.trimStart();  These three method will  not manipulte string
-// language.trimEnd();
-
-// let trimmedString=language.trim();
-// let trimmed_Start_String=language.trimStart();
-// let trimmed_End_String= language.trimEnd();
-
-// console.log(trimmedString);
-// console.log(trimmed_Start_String);
-// console.log(trimmed_End_String);
 
 
 
 
-/* 
-String- It is a piece of character ,in J.S there is no any speacial data
-type for store the string.
-
-Note -- (1) In J.S String are immutable.
-(2) String can not be manipulated directly ,
-it can be  through its methods() by storing it in another variable.
-
-
-String can be denoted in js in three methods
-(1) Single quotes
-(2)Double Quotes 
-(3)Template literals - It is used for mailny stroring the dynamic data
-  --- It can be used for storing multiline strings
-
-
-✅ Here are some string Methods--
-
-(1) str.toLowerCase() -- 
-(a) Convert string into lower case.
-(b) It can also convert into lower case first character of string.
-Ex- str[0].toLowerCase()
-
-(2) str.toUpperCase() --
-(a) Covert string into Upper case.
-
-
-(3)str.trim() -- Trim the spaces of string.
-
-(4)str.slice(Start,End)-- 
-(a) It takes two arguments. 
-(b) Start denotes the index position of string.
-(c) End is not included in the slicing.
-(d) Also takes negative index.
-(e) Also returns whatever it remove. 
-(f) In slice ,it's mandatory to be first value should always be less than second value.
-
-
-
-(5)str.substring()--
-(a) Same works as slice method
-(b) Do not take negative index.
-(c) 
-
-(6)str.replace(old,new)--
-(a)Replace the old value from current new value
-(b) It always replace the first finding value ,however that same value is present further,it will not replace that.
-
-
-(7)str.replaceAll(old,new)-- 
-(a) It always replace all the old value witu current value .
-
-(8)str.trimEnd()--
-(a) Trim the whitespaces of string from end.
-
-(9)str.trimStart()
-
-(10)str.charAt(indexNumber)-- Find the character in a string at given index number
-
-(11)str.indexOf(Character)--  
-(a) Find the index in a string for given character.
-(b) if character is not present in that string ,it return -1
-
-(12)str.at(indexNumber)--
-(a) Find the character in a string at given index number.
-(b) if index number is not present in string ,it returns undefined.
-(c) Also takes negative index
-
-(13)str.includes()--
-(A)Retrun the output in true or false 
-(b)If  character is present in string ,returns true otherwise false
-
-(14)str.concat()
-
-(15)str.localCompare()--
-(a)It is used to compare two strings
-(b) if first string is less than second then it will return -1 otherwise 1.
-(c) if both string are equal it will retrun 0;
-
-(16)str.split()--
-(a) It is used to convert a string in ARRAY.
-(b) split('')-- Convert the string into a single word.
-(c) split(' ') -- Convert the string into a complete word.
-
-
-✅ Practical Understanding about Different string Methods.
-
-
-
-
- -- How to find String length?
-
- str.length
-
-
-
-
-*/
 
 
 //   Class -03  Start with Operator
@@ -433,6 +311,53 @@ Ex- str[0].toLowerCase()
 //     console.log("Not Palindrom");
     
 // }
+
+
+            // # Object in js
+
+// let person={
+//   name:"Ankit",
+//   Age:23,
+//   hobby:"reading",
+//   Skill:"Front-end developer",
+//   work:function () {
+//     console.log("Study Javascript");
+    
+//   }
+// }
+// person["hobby"]="Sleeping";
+// console.log(person.hobby);
+
+// person.Age="Mishra"
+// console.log(person.Age);
+// console.log(person.work);
+
+
+// let obj={
+//   name:"alpha",
+//   age:24
+// }
+
+// let resultKey=Object.keys(obj)
+// console.log(resultKey);
+
+// let resultValue=Object.values(obj)
+// console.log(resultValue);
+
+
+// for (const element in obj) {
+//   console.log(obj[element]);
+  
+// }
+
+    // # Object Destructring
+    
+const person={name:"Ankit",Age:23}
+
+const{name,Age}=person
+
+console.log(name);
+console.log(Age);
 
 
 
