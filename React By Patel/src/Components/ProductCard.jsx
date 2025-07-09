@@ -40,7 +40,7 @@ if(listProduct.length===0){
       <p> Brand: {brand}</p>
       <p>Price: {price}</p>
       <p>Rating: {rating}</p>
-      
+      <button className='bg-purple-700 text-white px-4 py-2 rounded-md mt-2'>Add to Cart</button>
     </div>
   </div>
   

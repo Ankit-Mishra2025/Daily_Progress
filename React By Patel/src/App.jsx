@@ -10,6 +10,9 @@ import Beauty from "./Components/Beauty";
 import ProductDeatils from "./Components/ProductDeatils";
 
 import { lazy } from "react";
+import CompoA from "./Components/CompoA";
+import CompoB from "./Components/CompoB";
+import CompoC from "./Components/CompoC";
 
 
 // Lazy Loading
@@ -70,6 +73,22 @@ const App=()=>{
     path:"/grocerry",
     element:<Grocerry/>
   },
+
+  {
+    path:"/compoA",
+    element:<CompoA/>
+  },
+
+{
+    path:"/compoB",
+    element:<CompoB/>
+  },
+
+{
+    path:"/compoC",
+    element:<CompoC/>
+  },
+
 ])
 
 

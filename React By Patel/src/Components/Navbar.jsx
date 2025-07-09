@@ -1,11 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import UserContext from '../Utils/UserContext';
 
 
 
 
 const Navbar = () => {
+
+  const user=useContext(UserContext)
 
 // let btn="Light"
 const[btn,setBtn]=useState("Light");
@@ -18,6 +21,7 @@ const[text,setText]=useState(" ")
    <ul className='flex w-[35%] mx-5 gap-12 bg-gray-400 py-1 rounded-xl text-center px-2'>
     <li>Home</li>
 <li>About</li>
+
 <Link to='/kids'><li>Kids</li></Link>
 
 <Link to="/beauty"><li>Beauty</li></Link> 
@@ -34,6 +38,7 @@ const[text,setText]=useState(" ")
   
 }} className='bg-purple-600 px-3 py-2 text-lg font-semibold rounded-sm text-zinc-200'>Search</button>
 
+<li>{user.name}</li>
 
 <button  className='bg-purple-600 px-3 py-2 text-lg font-semibold rounded-sm text-zinc-200' onClick={()=>{
   if (btn ==="Light") {

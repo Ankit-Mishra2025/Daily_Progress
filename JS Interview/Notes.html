@@ -361,14 +361,115 @@ split()-- it converts the string in Array.
 
 in split agr ('') krte hai to wo hr ek character ko split krta hai aur agr (' ') krte hai to wo 
 
+                      
+
+
+               
+
+
+          # Object in Javascript
+
+-- In javascript everything is treated as like object
+ Object in J.S in key-value pair form
+
+-- Object has no any length property.
+
+-- Object are mutable in javscript.
+-- Object are not iterable directly but can be some object method.
+
+-- Object can be create in two ways.
+(a)Normal or Literal method
+(b) Using object constructor  -- new Obejct()
+
+
+-- Accesing Object Properties
+We have two ways
+(a)Dot Notation
+(b)Bracket Method
+
+-- Updating or Adding new properties
+person.city="New York";
+person["hooby"]="Reading"
+
+--Deleting properties
+delete person.city;
+
+
+--this keyword in object
+
+Jab bhi hme object ke andr hi object ko use krna hota hai to this keyword ka use hota hai
+
+this keyword normal function ke sath hi work krta hai,array function ke sath nhi krta
+
+ex- let obj={
+name:"alpha"
+}
+obj.greet=funtion{
+console.log(this)}
 
 
 
-               # Array in javascript
+-- Object Methods
+
+(1) Object.keys(objName)-- It return all the key of objet in array format
+
+(2)Object.values(objName)--  It return all the value of object in array format.
+
+
+Note -- 
+(1) Object ke sath for of loop use nhi hota hai ,for in krte hai because for in loop key deta hai 
+# Week NO -02 (Array in javascript)
+                 
+
+
+-- How to make copy of a object
+
+let obj={name:'Alpha',age:23}
+
+let obj2={...obj}
+
+
+Second method--
+let obj2={}
+Object.assign(obj2,obj1)
+
+
+-- How to find key in a object
+
+obj.hasOwnProperty("key")
+
+it thros output in true or false.
+Helps to find that given key is present or not
+
+
+-- What is Singletion Object?
+
+Jo normal literal method se object create hota hai whi singletion object hota hai
+
+(b) Singletion object instance can not be used for creating another object.
+
+(c) new object() -- is way se bhi singletion object hi bnta hai
+
+
+-- Object Destructring 
+
+const person={name:"Ankit",Age:23}
+
+const{name,Age}=person
+
+console.log(name);
+console.log(Age);
+
+
+
+
+
+
+                # Array Concepts
 
 Array - it can store multiple value in one place.
 
-stack and heap in array -
+stack and heap in =array -
 Stack holds the refrence or address of a array and heap store thr array.
 
 Create Array using array constructor
@@ -459,104 +560,61 @@ Note -- Sort() Method in javascript
 
 (2)Filter()-- only works in truthy or falsy conditiion 
 
-
-
-          # Object in Javascript
-
--- In javascript everything is treated as like object
- Object in J.S in key-value pair form
-
--- Object has no any length property.
-
--- Object are mutable in javscript.
-
--- Object can be create in two ways.
-(a)Normal or Literal method
-(b) Using object constructor  -- new Obejct()
-
-
--- Accesing Object Properties
-We have two ways
-(a)Dot Notation
-(b)Bracket Method
-
--- Updating or Adding new properties
-person.city="New York";
-person["hooby"]="Reading"
-
---Deleting properties
-delete person.city;
-
-
---this keyword in object
-
-Jab bhi hme object ke andr hi object ko use krna hota hai to this keyword ka use hota hai
-
-this keyword normal function ke sath hi work krta hai,array function ke sath nhi krta
-
-ex- let obj={
-name:"alpha"
-}
-obj.greet=funtion{
-console.log(this)}
-
-
-
--- Object Methods
-
-(1) Object.keys(objName)-- It return all the key of objet in array format
-
-(2)Object.values(objName)--  It return all the value of object in array format.
-
-
-Note -- 
-(1) Object ke sath for of loop use nhi hota hai ,for in krte hai because for in loop key deta hai 
-
 (2) map(),filter(),forEach() ka bhi use nhi hota hai
 
 
--- How to make copy of a object
-
-let obj={name:'Alpha',age:23}
-
-let obj2={...obj}
-
-
-Second method--
-let obj2={}
-Object.assign(obj2,obj1)
-
-
--- How to find key in a object
-
-obj.hasOwnProperty("key")
-
-it thros output in true or false.
-Helps to find that given key is present or not
-
-
--- What is Singletion Object?
-
-Jo normal literal method se object create hota hai whi singletion object hota hai
-
-(b) Singletion object instance can not be used for creating another object.
-
-(c) new object() -- is way se bhi singletion object hi bnta hai
-
-
--- Object Destructring 
-
-const person={name:"Ankit",Age:23}
-
-const{name,Age}=person
-
-console.log(name);
-console.log(Age);
+ 
 
 
 
 
 
+
+       (Week -01)     # Class No -09 Dom Manipulation 
+            
+--Whenever a browser loads a page ,DOM is created.
+
+HTML -- OBJECT --DOCUMENT and then it can be accesed 
+
+
+Dom Manipulation has 5 phases to manipulate the javascript
+
+
+
+(1)Dom
+(2)Selection of HTML Elements
+(3)How to change or manipulate HTML
+(4)How to Change CSS
+(5) Event Listners
+
+
+
+-- Window Object 
+(a) It is a global object
+(b) if we declare variable with var , it join with window object except let decelaration.
+
+(c) console.log, cosnole.error, console.warn ye sabhi window object ke andr hi include hota hai.
+
+
+
+
+
+
+✅ DOM-- Document object model
+
+-- (2) Selction of HTML Elements
+
+document.querySelcetor("h1");
+
+
+(4)How to Change CSS
+h1.style.backgroundColor="Red";
+console.log(h1)
+
+(5) Event Listners
+h1.addEventListner(()=>{
+console.log()
+})
 
 
 

@@ -351,15 +351,46 @@
 // }
 
     // # Object Destructring
-    
-const person={name:"Ankit",Age:23}
 
-const{name,Age}=person
+// const person={name:"Ankit",Age:23}
 
-console.log(name);
-console.log(Age);
+// const{name,Age}=person
+
+// console.log(name);
+// console.log(Age);
+
+  
+
+        // #Object Question Practice
+
+// Question No-01
+
+// let fullName={
+//   firstName:"Ankit",
+//   middleName:"Kumar",
+//   lastName:"Mishra"
+// }
+
+// const func=function(param) {
+//   return(
+//   `${param.firstName} ${param.middleName} ${param.lastName}`
+
+//   )
+// }
+
+// let result=func(fullName);
+// console.log(result);
+
+// let language=["I","am","reading","javascript"];
+// language.splice(0,3,"watching","python");
+// console.log(language);
 
 
 
 
+
+
+            //  # DOM IN JAVASCRIPT
+
+let p=document.querySelector("p")
 
