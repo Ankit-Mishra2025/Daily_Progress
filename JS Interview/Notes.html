@@ -576,10 +576,11 @@ Note -- Sort() Method in javascript
 
 HTML -- OBJECT --DOCUMENT and then it can be accesed 
 
+-- ✅ Why script tag is used at last in body?
+Ans- Beacuse whenever page is load ,browser will parse javascript firstly so that remaining content of body will not load on the browser or will  take time to load the content.
 
-Dom Manipulation has 5 phases to manipulate the javascript
 
-
+✅ Dom Manipulation has 5 phases to manipulate the javascript
 
 (1)Dom
 (2)Selection of HTML Elements
@@ -589,7 +590,7 @@ Dom Manipulation has 5 phases to manipulate the javascript
 
 
 
--- Window Object 
+✅ -- Window Object 
 (a) It is a global object
 (b) if we declare variable with var , it join with window object except let decelaration.
 
@@ -617,20 +618,48 @@ console.log()
 })
 
 
+-- How to see all childeren of  HTML element
+
+(.children)
+
+✅ What is Node List --
+
+(a) It is collection of DOM elements
+(b) whenever we select html with querySelector it return in node list.
+
+(c) It is also like array with collection of diifrent node but
+
+(d) it does not support array iterable method like ,map(),fileter(),reduce()
+
+
+       ✅ Manipulating of HTML 
+
+
+-- IN  HTML manipulation ,we can not change tag directly.
+  
+console.log(h1.tagName); -- Return the tag name
+console.log(h1.nodeName); -- it can return tagname ,textnode, comment node
+
+-- Text Manipulation 
+(a)inner text-- return only text no formatting
+(b) text content-- formatted text jsa code me dikhta hai waisa hi milta hai
+
+
+--Insert Elements --
+
+node.append(elem)-- adds at the end of element
+node.prepend(elem)-- adds at the beginig of element
+node.after(elem)-- add outside the element
+node.before(elem)-- add outside before element
+
+
+-- Remove Elements--
+node.remove(elem)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+--- Parent Node--
+node.parentNode(elem)
 
 
 

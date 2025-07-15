@@ -14,7 +14,7 @@ import CompoA from "./Components/CompoA";
 import CompoB from "./Components/CompoB";
 import CompoC from "./Components/CompoC";
 
-
+//  import {Provider}
 // Lazy Loading
 // Code Spiliting
 // Dyanmic import
@@ -37,6 +37,7 @@ const App=()=>{
 
 
   return(
+
 <div>
 
 <Navbar/>

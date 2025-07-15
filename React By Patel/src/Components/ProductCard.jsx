@@ -25,9 +25,7 @@ const [listProduct,setListProduct]=useState([])
 
 
 // Conditional Rendering
-if(listProduct.length===0){
-  <Skeleton/>
-}
+
 
 
   return (

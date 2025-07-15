@@ -392,5 +392,36 @@
 
             //  # DOM IN JAVASCRIPT
 
-let p=document.querySelector("p")
+// let p=document.querySelector("p")
+
+
+
+//  Manipulate the HTML Elements
+
+// let h1=document.querySelector('h1');
+
+// console.log(h1.tagName);
+// console.log(h1.nodeName);
+
+let p=document.querySelector(".P");
+// p.innerHTML="Ankit Mishraaa"
+// console.log(p);
+
+// p.textContent=' Ankit   Mishra '
+// console.log(p);
+
+// let div=document.querySelector("div")
+// let h1=document.createElement("h3")
+// h1.textContent="Heading1"
+// console.log(h1);
+
+// div.append(h1)
+// div.prepend(h1)
+// div.after(h1)
+// div.before(h1)
+
+
+
+
+
 
