@@ -1,0 +1,47 @@
+.colorChanger{
+
+text-align: center;
+    font-size: 25px;
+  
+}
+
+.container{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap:10px;
+}
+
+.randomBtn{
+    padding: 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+input{
+    padding: 15px;
+    background-color: aliceblue;
+    outline: none;
+   
+    gap: 10px;
+
+}
+
+.applyBtn{
+     padding: 20px;
+    background-color:burlywood;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+ .btn{
+    padding: 10px;
+    margin-top: 10px;
+
+}

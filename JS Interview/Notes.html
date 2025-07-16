@@ -662,6 +662,54 @@ node.remove(elem)
 node.parentNode(elem)
 
 
+-- Attributes--
+
+getAttributes()
+
+
+
+
+--- Manipulating The CSS---
+
+(1) Using attribute method
+div.setAttribute("class","vox")
+div.setAttribute("style","backGround-color:red")
+
+
+(2) Style Property--
+div.style.backagroun-color:"Red"
+
+(3) clasName added--
+
+div.className="vox"
+
+(4) classList added-- Can add multiple classes
+div.classList.add("vox")
+div.classList.remove("vox")
+dic.classList.contains("vox")
+div.classList.toggle("vox")-- if class vox is present ,it will remove, if not then it will add
+
+
+
+           # Event Handling In Javascript
+
+We can handle event using three methods
+(1)Inline methods-- 
+
+(2) Property method--
+div.onclick=()=>{
+console.log("mai property method wala click hoo")}
+
+(b) iski priortity inline method se jyde hoti hai
+(c) same element pe same event nhi lga skte hai, dusra event phle ko override kr deta hai
+
+(3)Listner method
+
+
+
+-- Mouse Click Event --
+click ,dbclick,mousedown,mouseup
+
 
 
 

@@ -420,8 +420,23 @@ let p=document.querySelector(".P");
 // div.after(h1)
 // div.before(h1)
 
+//    Change the theme of body
+let theme="light"
+let body=document.body
+
+let btn=document.querySelector("button")
+// btn.addEventListener('click',()=>{
+//     if (theme==="light") {
+//         body.style.backgroundColor="Black"
+//         body.style.color="white"
+//         theme="Dark"
+//     } else {
+//         body.style.backgroundColor="White"
+//         body.style.color="Black"
+//         theme="light"
+//     }
+  
 
 
-
-
+// })
 
