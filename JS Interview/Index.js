@@ -403,7 +403,7 @@
 // console.log(h1.tagName);
 // console.log(h1.nodeName);
 
-let p=document.querySelector(".P");
+// let p=document.querySelector(".P");
 // p.innerHTML="Ankit Mishraaa"
 // console.log(p);
 
@@ -421,10 +421,10 @@ let p=document.querySelector(".P");
 // div.before(h1)
 
 //    Change the theme of body
-let theme="light"
-let body=document.body
+// let theme="light"
+// let body=document.body
 
-let btn=document.querySelector("button")
+// let btn=document.querySelector("button")
 // btn.addEventListener('click',()=>{
 //     if (theme==="light") {
 //         body.style.backgroundColor="Black"
@@ -437,6 +437,56 @@ let btn=document.querySelector("button")
 //     }
   
 
+
+// })
+
+ 
+
+
+                //  # Event life-cycle in Javascript
+
+let grandParent=document.querySelector(".grandParent")
+
+let parent=document.querySelector(".parent");
+
+let child=document.querySelector(".child")
+
+             
+// grandParent.addEventListener("click",()=>{
+//     // alert("Grand parent pe click hua")
+// // console.log("Grand parent pe click hua");
+
+
+
+// })
+
+// parent.addEventListener("click",()=>{
+//     // alert("Parent pe click hua")
+//     // console.log("Parent pe click hua");
+    
+// },true)
+
+// child.addEventListener("click",()=>{
+//     // alert("Child pe click hua")
+//     // console.log("Child pe click hua");
+    
+// })
+
+
+let container=document.querySelector(".container")
+
+// container.childNodes.forEach((element)=>{
+//     element.addEventListener("click",()=>{
+//         console.log(element.textContent);
+        
+//     })
+// })
+
+// container.addEventListener("click",(e)=>{
+//     if(e.target.classList.contains("box")){
+//  console.log(e.target.textContent);
+//     }
+   
 
 // })
 

@@ -714,4 +714,44 @@ click ,dbclick,mousedown,mouseup
 
 
 
+
+
+
+                 # Event Life cycle Methods 
+
+
+-- Event Propagation -- 
+
+It descirbes the way events travel through DOM after they triggered.
+
+It consist of three pages.
+(1) Capturing phase or tickling-- event travel from root of the DOM down to target element.
+
+
+(2) Target Phase
+(3) Bubbling phase-- event backup to parents after event trigger 
+(a) Bubbling means event from target to parent and by default it is set.
+
+
+event.tareget vs event.currentTarget
+
+-- event.target-- Identify which child element was clicked or interacted.
+
+-- event.current.target-- Always point where event listner is added. 
+
+Note -- This refers  event.current.target in case of normal function. 
+
+
+
+-- How to stop Bubbling and Capturing
+event.stopPropgation() -- Stops the further propogation.
+
+
+
+-- Event Delegation --
+
+It is a technique in javascript where you add an event listner to a parent instead of additing it multiple child elements.
+
+--When you have a large number of child elements then it is useful.
+
 -->

@@ -1,0 +1,37 @@
+.openBtn{
+    padding: 20px 15px;
+    outline: none;
+    margin: auto;
+
+}
+
+.modelConatiner{
+    background-color: rgb(64, 52, 52);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    
+   padding: 30px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modelContent{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+     
+}
+
+.modelBox{
+    height: 100vh;
+    
+}
+
+.closeBtn{
+    padding: 20px 10px;
+    font-size: 16px;
+}

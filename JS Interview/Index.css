@@ -1,4 +1,53 @@
-.light{
-    background-color: black;
-    color: white;
+.container{
+    /* width: 100%; */
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    gap:15px;
+    padding: 150px;
+    border-radius: 10px;
+    flex-wrap:wrap ;
+    cursor: grabbing;
 }
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: brown;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+/* .grandParent{
+    padding: 20px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+   
+}
+
+.parent{
+    padding: 15px;
+    background-color: rgb(115, 255, 0);
+    height: 200px;
+    width: 200px;
+   
+}
+
+.child{
+    padding: 10px;
+    background-color:blue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
