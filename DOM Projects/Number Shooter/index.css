@@ -1,0 +1,41 @@
+.detailsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+}
+
+.detailsBox header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   color: white;
+   padding: 30px 20px;
+   font-size: 16px;
+
+}
+
+.numberContainer{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin: 20px auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 60px;
+    width: 55px;
+    background-color: brown;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}

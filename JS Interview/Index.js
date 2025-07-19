@@ -445,11 +445,11 @@
 
                 //  # Event life-cycle in Javascript
 
-let grandParent=document.querySelector(".grandParent")
+// let grandParent=document.querySelector(".grandParent")
 
-let parent=document.querySelector(".parent");
+// let parent=document.querySelector(".parent");
 
-let child=document.querySelector(".child")
+// let child=document.querySelector(".child")
 
              
 // grandParent.addEventListener("click",()=>{
@@ -473,7 +473,7 @@ let child=document.querySelector(".child")
 // })
 
 
-let container=document.querySelector(".container")
+// let container=document.querySelector(".container")
 
 // container.childNodes.forEach((element)=>{
 //     element.addEventListener("click",()=>{
@@ -489,4 +489,8 @@ let container=document.querySelector(".container")
    
 
 // })
+
+
+
+
 

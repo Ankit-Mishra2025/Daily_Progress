@@ -42,6 +42,7 @@ const App=()=>{
 
 <Navbar/>
 <ProductList/>
+<CompoC/>
 </div>
 
 
