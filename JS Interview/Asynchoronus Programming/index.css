@@ -1,0 +1,26 @@
+.container{
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:50px;
+flex-direction: column;
+background-color: beige;
+height: 100vh;
+}
+
+input{
+    padding: 10px;
+    font-size: 17px;
+}
+
+button{
+    padding:20px 40px;
+    border-radius: 10px;
+    outline: none;
+    background-color: purple;
+    color: white;
+    border: none;
+
+}
+
